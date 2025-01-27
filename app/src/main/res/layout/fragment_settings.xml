@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Switch para permitir o no eliminar Pokémon capturados -->
+    <Switch
+        android:id="@+id/switchAllowDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Permitir eliminar Pokémon capturados"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Botón o Spinner para cambiar idioma (en este ejemplo, un botón de ejemplo) -->
+    <Button
+        android:id="@+id/btnLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar idioma (es/en)"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Botón para mostrar el diálogo 'Acerca de' -->
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acerca de"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Botón para cerrar sesión -->
+    <Button
+        android:id="@+id/btnSignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cerrar sesión"/>
+
+</LinearLayout>

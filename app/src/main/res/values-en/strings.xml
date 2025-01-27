@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Pokémon App</string>
+    <string name="btn_capture">Capture</string>
+    <string name="btn_settings">Settings</string>
+    <string name="switch_delete_pokemon">Delete Captured Pokémon</string>
+    <string name="default_web_client_id">tuID.apps.googleusercontent.com</string>
+
+</resources>

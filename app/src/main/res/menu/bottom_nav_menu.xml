@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pokemonCapturedFragment"
+        android:icon="@drawable/ic_captured"
+        android:title="Capturados" />
+    <item
+        android:id="@+id/pokedexFragment"
+        android:icon="@drawable/ic_pokedex"
+        android:title="Pokédex" />
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="Ajustes" />
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ivSpriteDetail"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvNameDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/tvTypesDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipos"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvInfoDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info extra"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnDeletePokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Pokémon"
+        android:layout_gravity="center"/>
+</LinearLayout>

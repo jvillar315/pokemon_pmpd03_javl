@@ -1,0 +1,7 @@
+<resources>
+    <string name="default_web_client_id">tuID.apps.googleusercontent.com</string>
+    <string name="app_name">Mi App Pokémon</string>
+    <string name="btn_capture">Capturar</string>
+    <string name="btn_settings">Ajustes</string>
+    <string name="switch_delete_pokemon">Eliminar Pokémon Capturados</string>
+</resources>
